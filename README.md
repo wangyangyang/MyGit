@@ -1,4 +1,2 @@
 MyGit
-
-Learn
 =====
