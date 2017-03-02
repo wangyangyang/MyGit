@@ -1,17 +1,34 @@
-I have to learn Git
-ok
-git add 
+branch
 
-git commit -m ''
+创建分支
+git branch dev
 
-git pull
+切换分支
+git checkout dev
 
-git push
+快速创建切换
+git checkout -b dev
 
-git diff
+合并分支
+git merge dev
 
-git config --list
+删除分支
+git branch -d dev
 
-git config --global user.name ""
+查看当前分支清单
+git branch
 
-git config --global user.email **@**.com
+查看远程分支
+git branch -r
+
+创建远程分支
+git push origin dev
+
+同步远程服务器上的数据到本地
+git fetch origin
+
+提交分支数据
+git push origin dev:dev
+
+删除远程分支
+git push origin :dev
