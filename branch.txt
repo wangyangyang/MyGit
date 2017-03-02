@@ -1,0 +1,17 @@
+I have to learn Git
+ok
+git add 
+
+git commit -m ''
+
+git pull
+
+git push
+
+git diff
+
+git config --list
+
+git config --global user.name ""
+
+git config --global user.email **@**.com
