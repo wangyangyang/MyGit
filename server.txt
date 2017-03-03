@@ -1,0 +1,11 @@
+Server
+
+git init
+
+git add .
+
+git commit -m 'edit'
+
+git remote add origin git@*****.com:***.git
+
+git push origin master:master
